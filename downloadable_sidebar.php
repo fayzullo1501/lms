@@ -3,13 +3,13 @@
 				      <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div id="" class="muted pull-left"><h4><i class="icon-plus-sign"></i> Add Downloadable</h4></div>
+                                <div id="" class="muted pull-left"><h4><i class="icon-plus-sign"></i> Загрузить файлы</h4></div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
 								<form class="" id="add_downloadble" method="post" enctype="multipart/form-data" name="upload" >
                         <div class="control-group">
-                            <label class="control-label" for="inputEmail">File</label>
+                            <label class="control-label" for="inputEmail">Файл</label>
                             <div class="controls">
 				
 									
@@ -35,7 +35,7 @@
                         <div class="control-group">
                             <div class="controls">
 
-                                <button name="Upload" type="submit" value="Upload" class="btn btn-info" /><i class="icon-upload-alt"></i>&nbsp;Upload</button>
+                                <button name="Upload" type="submit" value="Upload" class="btn btn-info" /><i class="icon-upload-alt"></i>&nbsp;Загрузить</button>
                             </div>
                         </div>
                     </form>

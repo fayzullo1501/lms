@@ -14,8 +14,8 @@
 										$school_year_query_row = mysqli_fetch_array($school_year_query);
 										$school_year = $school_year_query_row['school_year'];
 										?>
-											<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-										<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
+											<li><a href="#"><b>Мой класс</b></a><span class="divider">/</span></li>
+										<li><a href="#">Учебный год: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
 										<li><a href="#"><b>Backpack</b></a></li>
 									</ul>
 						 <!-- end breadcrumb -->
@@ -32,7 +32,7 @@
 								if ($num_row > 0){
 								?>
 									<div class="pull-right">
-												Check All <input type="checkbox"  name="selectAll" id="checkAll" />
+												Отметить все <input type="checkbox"  name="selectAll" id="checkAll" />
 												<script>
 												$("#checkAll").click(function () {
 													$('input:checkbox').not(this).prop('checked', this.checked);
@@ -46,9 +46,9 @@
 										<thead>
 										        <tr>
 												<th></th>
-												<th>Date Upload</th>
-												<th>File Name</th>
-												<th>Description</th>
+												<th>Дата загрузки</th>
+												<th>Название файла</th>
+												<th>Описание</th>
 												<th></th>
 												</tr>
 										</thead>
@@ -72,7 +72,7 @@
 									</table>
 									</form>
 									<?php }else{ ?>
-									<div class="alert alert-info"><i class="icon-info-sign"></i> No Files Inside Your Backpack.</div>
+									<div class="alert alert-info"><i class="icon-info-sign"></i> Нет входящих файлов.</div>
 									<?php } ?>
                                 </div>
                             </div>

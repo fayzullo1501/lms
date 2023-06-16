@@ -14,9 +14,9 @@
 								$school_year_query_row = mysqli_fetch_array($school_year_query);
 								$school_year = $school_year_query_row['school_year'];
 								?>
-								<li><a href="#">Message</a><span class="divider">/</span></li>
-								<li><a href="#"><b>Sent Messages</b></a><span class="divider">/</span></li>
-								<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+								<li><a href="#">Сообщение</a><span class="divider">/</span></li>
+								<li><a href="#"><b>Отправленные</b></a><span class="divider">/</span></li>
+								<li><a href="#">Учебный год: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
@@ -30,10 +30,10 @@
   								
 										<ul class="nav nav-pills">
 										<li class="">
-										<a href="teacher_message.php"><i class="icon-envelope-alt"></i>inbox</a>
+										<a href="teacher_message.php"><i class="icon-envelope-alt"></i>Входящие</a>
 										</li>
 										<li class="active">
-										<a href="sent_message.php"><i class="icon-envelope-alt"></i>Sent messages</a>
+										<a href="sent_message.php"><i class="icon-envelope-alt"></i>Отправленные</a>
 										</li>
 										</ul>
 									
@@ -50,15 +50,15 @@
 											<div class="post"  id="del<?php echo $id; ?>">
 											<?php echo $row['content']; ?>
 													<hr>
-											Sent to: <strong><?php echo $row['reciever_name']; ?></strong>
+											Сообщение от: <strong><?php echo $row['reciever_name']; ?></strong>
 											<i class="icon-calendar"></i> <?php echo $row['date_sended']; ?>
 													<div class="pull-right">
-													<a class="btn btn-link"  href="#<?php echo $id; ?>" data-toggle="modal" ><i class="icon-remove"></i> Remove </a>
+													<a class="btn btn-link"  href="#<?php echo $id; ?>" data-toggle="modal" ><i class="icon-remove"></i> Удалить </a>
 													<?php include("remove_sent_message_modal.php"); ?>
 													</div>
 											</div>
 								<?php }}else{ ?>
-								<div class="alert alert-info"><i class="icon-info-sign"></i> No Message in your Sent Items</div>
+								<div class="alert alert-info"><i class="icon-info-sign"></i> Нет сообщений в отправленный сообщениях</div>
 								<?php } ?>
                                 </div>
                             </div>

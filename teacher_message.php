@@ -14,9 +14,9 @@
 								$school_year_query_row = mysqli_fetch_array($school_year_query);
 								$school_year = $school_year_query_row['school_year'];
 								?>
-								<li><a href="#">Message</a><span class="divider">/</span></li>
-								<li><a href="#"><b>Inbox</b></a><span class="divider">/</span></li>
-								<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+								<li><a href="#">Сообщение</a><span class="divider">/</span></li>
+								<li><a href="#"><b>Входящие</b></a><span class="divider">/</span></li>
+								<li><a href="#">Учебный год: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
@@ -30,10 +30,10 @@
   								
 										<ul class="nav nav-pills">
 										<li class="active">
-										<a href="teacher_message.php"><i class="icon-envelope-alt"></i>inbox</a>
+										<a href="teacher_message.php"><i class="icon-envelope-alt"></i>Входящие</a>
 										</li>
 										<li class="">
-										<a href="sent_message.php"><i class="icon-envelope-alt"></i>Sent messages</a>
+										<a href="sent_message.php"><i class="icon-envelope-alt"></i>Отправленные</a>
 										</li>
 										</ul>
 										
@@ -57,20 +57,20 @@
 											</div>
 											
 													<hr>
-											Send by: <strong><?php echo $row['sender_name']; ?></strong>
+											Отправлено от: <strong><?php echo $row['sender_name']; ?></strong>
 											<i class="icon-calendar"></i> <?php echo $row['date_sended']; ?>
 													<div class="pull-right">
-														<a class="btn btn-link"  href="#reply<?php echo $id; ?>" data-toggle="modal" ><i class="icon-reply"></i> Reply </a>
+														<a class="btn btn-link"  href="#reply<?php echo $id; ?>" data-toggle="modal" ><i class="icon-reply"></i> Ответить </a>
 													</div>
 													<div class="pull-right">
-													<a class="btn btn-link"  href="#<?php echo $id; ?>" data-toggle="modal" ><i class="icon-remove"></i> Remove </a>
+													<a class="btn btn-link"  href="#<?php echo $id; ?>" data-toggle="modal" ><i class="icon-remove"></i> Удалить </a>
 													<?php include("remove_inbox_message_modal.php"); ?>
 													<?php include("reply_inbox_message_modal.php"); ?>
 													</div>
 											</div>
 											
 								<?php }}else{ ?>
-								<div class="alert alert-info"><i class="icon-info-sign"></i> No Inbox  Messages</div>
+								<div class="alert alert-info"><i class="icon-info-sign"></i> Нет входящих сообщений</div>
 								<?php } ?>	
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
 			success: function(html){
 			$("#del"+id).fadeOut('slow', function(){ $(this).remove();}); 
 			$('#'+id).modal('hide');
-			$.jGrowl("Your Sent message is Successfully Deleted", { header: 'Data Delete' });	
+			$.jGrowl("Ваше сообщения успешно удалены", { header: 'Успешно' });	
 			}
 			}); 		
 			return false;

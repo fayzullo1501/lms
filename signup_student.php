@@ -13,16 +13,6 @@
 		</div>
 	</div>
     </div>
-	<div class="row-fluid">
-		<div class="span12">
-			<div class="index-footer">
-				<?php include('link.php'); ?>
-			</div>
-		</div>
-	</div>
-		   <!-- /container -->
-		<?php include('footer.php'); ?>
-    </div> <!-- /container -->
 <?php include('script.php'); ?>
   </body>
 </html>

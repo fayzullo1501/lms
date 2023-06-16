@@ -14,9 +14,9 @@
 										$school_year_query_row = mysqli_fetch_array($school_year_query);
 										$school_year = $school_year_query_row['school_year'];
 										?>
-											<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-										<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
-										<li><a href="#"><b>Shared Files</b></a></li>
+											<li><a href="#"><b>Мой класс</b></a><span class="divider">/</span></li>
+										<li><a href="#">Учебный год: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
+										<li><a href="#"><b>Общие файлы</b></a></li>
 									</ul>
 						 <!-- end breadcrumb -->
                         <!-- block -->
@@ -27,7 +27,7 @@
                             <div class="block-content collapse in">
                                 <div class="span12">
 									<div class="pull-right">
-												Check All <input type="checkbox"  name="selectAll" id="checkAll" />
+												Отметить все <input type="checkbox"  name="selectAll" id="checkAll" />
 												<script>
 												$("#checkAll").click(function () {
 													$('input:checkbox').not(this).prop('checked', this.checked);
@@ -41,10 +41,10 @@
 										<thead>
 										        <tr>
 												<th></th>
-												<th>Date Upload</th>
-												<th>File Name</th>
-												<th>Description</th>
-												<th>Shared By</th>
+												<th>Дата загрузки</th>
+												<th>Название файла</th>
+												<th>Описание</th>
+												<th>Отправлено пользователем</th>
 												<th></th>
 												</tr>
 										</thead>

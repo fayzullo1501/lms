@@ -43,13 +43,13 @@
                         <div class="control-group">
                       
                             <div class="controls">
-                                <input type="text" name="name" Placeholder="File Name"  class="input" required>
+                                <input type="text" name="name" Placeholder="Название файла"  class="input" required>
                             </div>
                         </div>
                         <div class="control-group">
                           
                             <div class="controls">
-                                <input type="text" name="desc" Placeholder="Description"  class="input" required>
+                                <input type="text" name="desc" Placeholder="Описание"  class="input" required>
                             </div>
                         </div>
                 
@@ -68,7 +68,7 @@
 						success: function(html){
 							// console.log(html)
 							// return false
-							$.jGrowl("Успешно", { header: 'Student Added' });
+							$.jGrowl("Студент успешно добавлен", { header: 'Успешно' });
 							setTimeout(function(){
 								window.location = 'add_downloadable.php';
 							},2000)
@@ -85,10 +85,10 @@
 									</div>
 									<div class="span8">
 											
-			<div class="alert alert-info">Check The Class you want to put this file.</div>
+			<div class="alert alert-info">Проверьте класс, в который вы хотите поместить этот файл.</div>
 					
 									<div class="pull-left">
-							Check All <input type="checkbox"  name="selectAll" id="checkAll" />
+							Отметить все <input type="checkbox"  name="selectAll" id="checkAll" />
 								<script>
 								$("#checkAll").click(function () {
 									$('input:checkbox').not(this).prop('checked', this.checked);
@@ -140,7 +140,7 @@
 									<center>
 									<div class="control-group">
 												<div class="controls">
-													<button name="Upload" type="submit" value="Upload" class="btn btn-success" /><i class="icon-upload-alt"></i>&nbsp;Изменить</button>
+													<button name="Upload" type="submit" value="Upload" class="btn btn-success" /><i class="icon-upload-alt"></i>&nbsp;Загрузить</button>
 												</div>
 									</div>
 									</center>

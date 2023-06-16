@@ -50,7 +50,7 @@
 						url: "add_announcement_save.php",
 						data: formData,
 						success: function(html){
-							$.jGrowl("Student Successfully  Added", { header: 'Student Added' });
+							$.jGrowl("Студент успешно добавлен", { header: 'Успешно' });
 							window.location = 'add_announcement.php';
 						}
 
@@ -63,7 +63,7 @@
 									</div>
 									<div class="span4">
 											
-			<div class="alert alert-info">Check The Class you want to put this file.</div>
+			<div class="alert alert-info">Проверьте класс, в который вы хотите поместить этот файл.</div>
 					
 									<div class="pull-left">
 							Отметить все <input type="checkbox"  name="selectAll" id="checkAll" />

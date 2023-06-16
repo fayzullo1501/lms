@@ -21,11 +21,11 @@
 												</a>
 												<p class="class"><?php echo $row['class_name']; ?></p>
 												<p class="subject"><?php echo $row['subject_code']; ?></p>
-												<a href="#<?php echo $id; ?>" data-toggle="modal"><i class="icon-trash"></i> Remove</a>	
+												<a href="#<?php echo $id; ?>" data-toggle="modal"><i class="icon-trash"></i> Удалить</a>	
 											
 											</li>
 										<?php include("delete_class_modal.php"); ?>
 									<?php } }else{ ?>
-									<div class="alert alert-info"><i class="icon-info-sign"></i> No Class Currently Added</div>
+									<div class="alert alert-info"><i class="icon-info-sign"></i> Нет классов</div>
 									<?php  } ?>
 									</ul>

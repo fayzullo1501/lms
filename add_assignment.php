@@ -75,10 +75,10 @@
 									</div>
 									<div class="span8">
 											
-			<div class="alert alert-info">Check The Class you want to put this file.</div>
+			<div class="alert alert-info">Проверьте класс, в который вы хотите поместить этот файл.</div>
 					
 									<div class="pull-left">
-							Check All <input type="checkbox"  name="selectAll" id="checkAll" />
+							Отметить все <input type="checkbox"  name="selectAll" id="checkAll" />
 								<script>
 								$("#checkAll").click(function () {
 									$('input:checkbox').not(this).prop('checked', this.checked);
@@ -130,7 +130,7 @@
 									<center>
 									<div class="control-group">
 												<div class="controls">
-													<button name="Upload" type="submit" value="Upload" class="btn btn-success" /><i class="icon-upload-alt"></i>&nbsp;Изменить</button>
+													<button name="Upload" type="submit" value="Upload" class="btn btn-success" /><i class="icon-upload-alt"></i>&nbsp;Добавить</button>
 												</div>
 									</div>
 									</center>

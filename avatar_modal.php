@@ -2,7 +2,7 @@
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-		<h3 id="myModalLabel">Change Avatar</h3>
+		<h3 id="myModalLabel">Изменить автар</h3>
 	</div>
 		<div class="modal-body">
 					<form method="post" action="teacher_avatar.php" enctype="multipart/form-data">
@@ -16,8 +16,8 @@
 					
 		</div>
 					<div class="modal-footer">
-						<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i> Close</button>
-						<button class="btn btn-info" name="change"><i class="icon-save icon-large"></i> Save</button>
+						<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i> Закрыть</button>
+						<button class="btn btn-info" name="change"><i class="icon-save icon-large"></i> Сохранить</button>
 					</div>
 					</form>
 </div>

@@ -1,9 +1,9 @@
 			<form id="signin_student" class="form-signin" method="post">
-			<h3 class="form-signin-heading"><i class="icon-lock"></i> Sign up as Student</h3>
-			<input type="text" class="input-block-level" id="username" name="username" placeholder="ID Number" required>
-			<input type="text" class="input-block-level" id="firstname" name="firstname" placeholder="Firstname" required>
-			<input type="text" class="input-block-level" id="lastname" name="lastname" placeholder="Lastname" required>
-			<label>Class</label>
+			<h3 class="form-signin-heading"><i class="icon-lock"></i> Регистрация</h3>
+			<input type="text" class="input-block-level" id="username" name="username" placeholder="ID студента" required>
+			<input type="text" class="input-block-level" id="firstname" name="firstname" placeholder="Имя" required>
+			<input type="text" class="input-block-level" id="lastname" name="lastname" placeholder="Фамилия" required>
+			<label>Класс</label>
 			<select name="class_id" class="input-block-level span5">
 				<option></option>
 				<?php
@@ -15,9 +15,9 @@
 				}
 				?>
 			</select>
-			<input type="password" class="input-block-level" id="password" name="password" placeholder="Password" required>
-			<input type="password" class="input-block-level" id="cpassword" name="cpassword" placeholder="Re-type Password" required>
-			<button id="signin" name="login" class="btn btn-info" type="submit"><i class="icon-check icon-large"></i> Sign in</button>
+			<input type="password" class="input-block-level" id="password" name="password" placeholder="Пароль" required>
+			<input type="password" class="input-block-level" id="cpassword" name="cpassword" placeholder="Повторить пароль" required>
+			<button id="signin" name="login" class="btn btn-info" type="submit"><i class="icon-check icon-large"></i> Регистрация</button>
 			</form>
 			
 		
@@ -53,7 +53,7 @@
 			
 					}else
 						{
-						$.jGrowl("student does not found in the database", { header: 'Sign Up Failed' });
+						$.jGrowl("Студент не найден на нащем базе", { header: 'Ошибка' });
 						}
 				});
 			});
@@ -61,7 +61,7 @@
 
 			
 		
-			<a onclick="window.location='index.php'" id="btn_login" name="login" class="btn" type="submit"><i class="icon-signin icon-large"></i> Click here to Login</a>
+			<a onclick="window.location='index.php'" id="btn_login" name="login" class="btn" type="submit"><i class="icon-signin icon-large"></i> Назад на главную</a>
 			
 			
 			

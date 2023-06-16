@@ -16,8 +16,8 @@
 						$school_year_query_row = mysqli_fetch_array($school_year_query);
 						$school_year = $school_year_query_row['school_year'];
 						?>
-							<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-							<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+							<li><a href="#"><b>Мой класс</b></a><span class="divider">/</span></li>
+							<li><a href="#">Учебный год: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
@@ -67,7 +67,7 @@
 								
 			
 									<?php }}else{ ?>
-									<div class="alert alert-info"><i class="icon-info-sign"></i> You are currently not enroll to your class</div>
+									<div class="alert alert-info"><i class="icon-info-sign"></i> В настоящее время вы не зарегистрированы в своем классе</div>
 									<?php } ?>	
 									</ul>
 						

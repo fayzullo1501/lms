@@ -20,8 +20,8 @@
 					     <ul class="breadcrumb">
 							<li><a href="#"><?php echo $class_row['class_name']; ?></a> <span class="divider">/</span></li>
 							<li><a href="#"><?php echo $class_row['subject_code']; ?></a> <span class="divider">/</span></li>
-							<li><a href="#">School Year: <?php echo $class_row['school_year']; ?></a> <span class="divider">/</span></li>
-							<li><a href="#"><b>Downloadable Materials</b></a></li>
+							<li><a href="#">Учебный год: <?php echo $class_row['school_year']; ?></a> <span class="divider">/</span></li>
+							<li><a href="#"><b>Загружаемые материалы</b></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
@@ -45,21 +45,21 @@
 										$query = mysqli_query($conn,"select * FROM files where class_id = '$get_id'  order by fdatein DESC ")or die(mysqli_error());
 										$count = mysqli_fetch_array($query);
 										if ($count == '0'){ ?>
-											<div class="alert alert-info"><i class="icon-info-sign"></i> Currently you did not upload any downloadable materials</div>
+											<div class="alert alert-info"><i class="icon-info-sign"></i> В настоящее время вы не загружали материалы для скачивания</div>
 						
 									<?php	}else{
 									?>  
   								<form action="copy_file.php" method="post">
 								
-									<a data-toggle="modal" href="#user_delete" id="delete"  class="btn btn-info" name=""><i class="icon-file"></i> Copy Check item</a>
+									<a data-toggle="modal" href="#user_delete" id="delete"  class="btn btn-info" name=""><i class="icon-file"></i> Копировать Проверить элемент</a>
   									<table cellpadding="0" cellspacing="0" border="0" class="table" id="">
 									<?php include('move_to_school_year.php'); ?>
 										<thead>
 										        <tr>
-												<th>Date Upload</th>
-												<th>File Name</th>
-												<th>Description</th>
-												<th>Uploaded by</th>
+												<th>Дата загрузки</th>
+												<th>Название файла</th>
+												<th>Описание</th>
+												<th>Загружено пользователем</th>
 												<th></th>
 												<th></th>
 												</tr>

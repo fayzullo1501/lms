@@ -4,15 +4,15 @@
 				      <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div id="" class="muted pull-left"><h4><i class="icon-pencil"></i> Create Message</h4></div>
+                                <div id="" class="muted pull-left"><h4><i class="icon-pencil"></i> Создать сообщение</h4></div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
 									<ul class="nav nav-tabs">
 										<li class="active">
-											<a href="teacher_message.php">For Teacher</a>
+											<a href="teacher_message.php">Для педагогов</a>
 										</li>
-										<li><a href="teacher_message_teacher.php">For Student</a></li>
+										<li><a href="teacher_message_teacher.php">Для студентов</a></li>
 									</ul>
 									
 								
@@ -20,7 +20,7 @@
 
 								<form method="post" id="send_message">
 									<div class="control-group">
-											<label>To:</label>
+											<label>Кому:</label>
                                           <div class="controls">
                                             <select name="teacher_id"  class="chzn-select" required>
                                              	<option></option>
@@ -39,14 +39,14 @@
                                         </div>
 										
 										<div class="control-group">
-											<label>Content:</label>
+											<label>Сообщение:</label>
                                           <div class="controls">
 											<textarea name="my_message" class="my_message" required></textarea>
                                           </div>
                                         </div>
 										<div class="control-group">
                                           <div class="controls">
-												<button  class="btn btn-info"><i class="icon-envelope-alt"></i> Send </button>
+												<button  class="btn btn-info"><i class="icon-envelope-alt"></i> Отправить </button>
 
                                           </div>
                                         </div>
@@ -68,7 +68,7 @@
 						data: formData,
 						success: function(html){
 						
-						$.jGrowl("Message Successfully Sended", { header: 'Message Sent' });
+						$.jGrowl("Сообщения успешно отправлены!", { header: 'Успешно' });
 						var delay = 2000;
 							setTimeout(function(){ window.location = 'teacher_message.php'  }, delay);  
 						

@@ -16,8 +16,8 @@
 						$school_year_query_row = mysqli_fetch_array($school_year_query);
 						$school_year = $school_year_query_row['school_year'];
 						?>
-							<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-							<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+							<li><a href="#"><b>Мой класс</b></a><span class="divider">/</span></li>
+							<li><a href="#">Учебный год: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
@@ -35,7 +35,7 @@
   					<form action="read.php" method="post">
 						<?php if($not_read == '0'){
 								}else{ ?>
-							<button id="delete"  class="btn btn-info" name="read"><i class="icon-check"></i> Read</button>
+							<button id="delete"  class="btn btn-info" name="read"><i class="icon-check"></i> Прочитать</button>
 													<div class="pull-right">
 							Check All <input type="checkbox"  name="selectAll" id="checkAll" />
 								<script>
@@ -92,7 +92,7 @@
 					<?php
 					} }else{
 					?>
-					<div class="alert alert-info"><strong><i class="icon-info-sign"></i> No Notifications Found</strong></div>
+					<div class="alert alert-info"><strong><i class="icon-info-sign"></i> Уведомления не найдены!</strong></div>
 					<?php
 					}
 					?>

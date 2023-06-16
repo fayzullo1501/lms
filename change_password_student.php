@@ -14,8 +14,8 @@
 								$school_year_query_row = mysqli_fetch_array($school_year_query);
 								$school_year = $school_year_query_row['school_year'];
 								?>
-								<li><a href="#"><b>Change Password</b></a><span class="divider">/</span></li>
-								<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+								<li><a href="#"><b>Изменить пароль</b></a><span class="divider">/</span></li>
+								<li><a href="#">Учебный год: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
@@ -26,7 +26,7 @@
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
-  								<div class="alert alert-info"><i class="icon-info-sign"></i> Please Fill in required details</div>
+  								<div class="alert alert-info"><i class="icon-info-sign"></i> Пожалуйста, заполните необходимые данные</div>
 								<?php
 								$query = mysqli_query($conn,"select * from student where student_id = '$session_id'")or die(mysqli_error());
 								$row = mysqli_fetch_array($query);
@@ -34,27 +34,27 @@
 										
 								    <form  method="post" id="change_password" class="form-horizontal">
 										<div class="control-group">
-											<label class="control-label" for="inputEmail">Current Password</label>
+											<label class="control-label" for="inputEmail">Текущий пароль</label>
 											<div class="controls">
-											<input type="hidden" id="password" name="password" value="<?php echo $row['password']; ?>"  placeholder="Current Password">
-											<input type="password" id="current_password" name="current_password"  placeholder="Current Password">
+											<input type="hidden" id="password" name="password" value="<?php echo $row['password']; ?>"  placeholder="Текущий пароль">
+											<input type="password" id="current_password" name="current_password"  placeholder="Текущий пароль">
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">New Password</label>
+											<label class="control-label" for="inputPassword">Новый пароль</label>
 											<div class="controls">
-											<input type="password" id="new_password" name="new_password" placeholder="New Password">
+											<input type="password" id="new_password" name="new_password" placeholder="Новый пароль">
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Re-type Password</label>
+											<label class="control-label" for="inputPassword">Повторить пароль</label>
 											<div class="controls">
-											<input type="password" id="retype_password" name="retype_password" placeholder="Re-type Password">
+											<input type="password" id="retype_password" name="retype_password" placeholder="Повторить пароль">
 											</div>
 										</div>
 										<div class="control-group">
 											<div class="controls">
-											<button type="submit" class="btn btn-info"><i class="icon-save"></i> Save</button>
+											<button type="submit" class="btn btn-info"><i class="icon-save"></i> Сохранить</button>
 											</div>
 										</div>
 									</form>

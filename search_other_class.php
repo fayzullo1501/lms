@@ -1,13 +1,13 @@
 	      <!-- block -->
                         <div class="block" id="search_class">
                             <div class="navbar navbar-inner block-header">
-                                <div id="" class="muted pull-left"><strong>Search Past Class</strong></div>
+                                <div id="" class="muted pull-left"><strong>Искать в прошлом классе</strong></div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
 								<form method="post" action="search_class.php">	
 										<div class="control-group">
-											<label>School Year:</label>
+											<label>Учебный год:</label>
                                           <div class="controls">
                                             <select name="school_year"  class="span8" required>
                                              	<option></option>
@@ -23,7 +23,7 @@
                                         </div>
 											<div class="control-group">
                                           <div class="controls">
-												<button name="search" class="btn btn-info"><i class="icon-search"></i> Search</button>
+												<button name="search" class="btn btn-info"><i class="icon-search"></i> Поиск</button>
 
                                           </div>
                                         </div>
