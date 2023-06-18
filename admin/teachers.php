@@ -13,7 +13,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Teacher List</div>
+                                <div class="muted pull-left">Список педагогов</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -24,9 +24,9 @@
 										<thead>
 										    <tr>
                                     <th></th>
-                                    <th>Photo</th>
-                                    <th>Name</th>
-                                    <th>Username</th>
+                                    <th>Фото</th>
+                                    <th>Имя</th>
+                                    <th>Имя пользователя</th>
 
                                     <th></th>
                                 </tr>
@@ -48,9 +48,9 @@
                                
 									<td width="50"><a href="edit_teacher.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i></a></td>
 									<?php if ($teacher_stat == 'Activated' ){ ?>
-									<td width="120"><a href="de_activate.php<?php echo '?id='.$id; ?>" class="btn btn-danger"><i class="icon-remove"></i> Deactivate</a></td>
+									<td width="120"><a href="de_activate.php<?php echo '?id='.$id; ?>" class="btn btn-danger"><i class="icon-remove"></i> Деактив.</a></td>
 									<?php }else{ ?>
-									<td width="120"><a href="edit_teacher.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-check"></i> Activated</a></td>				
+									<td width="120"><a href="edit_teacher.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-check"></i> Актив.</a></td>				
 									<?php } ?>
                                 </tr>
                             <?php } ?>

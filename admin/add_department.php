@@ -2,20 +2,20 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Add Department</div>
+                                <div class="muted pull-left">Добавить филиал</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
 								<form method="post">
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" id="focusedInput" name="d" type="text" placeholder = "Deparment">
+                                            <input class="input focused" id="focusedInput" name="d" type="text" placeholder = "Филиал">
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" id="focusedInput" name="pi" type="text" placeholder = "Person Incharge">
+                                            <input class="input focused" id="focusedInput" name="pi" type="text" placeholder = "Директор филиала">
                                           </div>
                                         </div>
 								

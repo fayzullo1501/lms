@@ -2,32 +2,32 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Add User</div>
+                                <div class="muted pull-left">Добавить администратора</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
 								<form method="post">
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="firstname" id="focusedInput" type="text" placeholder = "Firstname" required>
+                                            <input class="input focused" name="firstname" id="focusedInput" type="text" placeholder = "Имя" required>
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="lastname" id="focusedInput" type="text" placeholder = "Lastname" required>
+                                            <input class="input focused" name="lastname" id="focusedInput" type="text" placeholder = "Фамилия" required>
                                           </div>
                                         </div>
 										
 											<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="username" id="focusedInput" type="text" placeholder = "Username" required>
+                                            <input class="input focused" name="username" id="focusedInput" type="text" placeholder = "Имя пользователя" required>
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="password" id="focusedInput" type="text" placeholder = "Password" required>
+                                            <input class="input focused" name="password" id="focusedInput" type="text" placeholder = "Пароль" required>
                                           </div>
                                         </div>
 										

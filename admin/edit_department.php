@@ -14,7 +14,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Department List</div>
+                                <div class="muted pull-left">Список филиалов</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -25,8 +25,8 @@
 										<thead>
 										  <tr>
 												<th></th>
-												<th>Department</th>
-												<th>Pesron In-charge</th>
+												<th>Филиал</th>
+												<th>Директор филиалы</th>
 											
 												<th></th>
 										   </tr>

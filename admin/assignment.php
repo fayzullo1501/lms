@@ -10,7 +10,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Assignment File Uploaded List</div>
+                                <div class="muted pull-left">Список загруженных файлов заданий</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -19,11 +19,11 @@
 										<thead>
 										        <tr>
 
-												<th>File Name</th>
-												<th>Description</th>
-												<th>Date Upload</th>
-												<th>Upload By</th>
-												<th>Class</th>
+												<th>Название файла</th>
+												<th>Описание</th>
+												<th>Дата загрузки</th>
+												<th>Загружен от...</th>
+												<th>Класс</th>
                                    
 												</tr>
 												

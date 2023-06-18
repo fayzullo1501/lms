@@ -11,7 +11,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Users Log List</div>
+                                <div class="muted pull-left">Список журналов пользователей</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -19,9 +19,9 @@
 								
 										<thead>
 										  <tr>
-												<th>Date Login</th>
-												<th>Date logout</th>
-												<th>Username</th>
+												<th>Дата входа</th>
+												<th>Дата выходя</th>
+												<th>Имя пользователя</th>
 												
 											
 										   </tr>

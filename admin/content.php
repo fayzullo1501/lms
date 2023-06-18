@@ -7,11 +7,11 @@
 				<?php include('content_sidebar.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
-					 <a href="add_content.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Content</a>
+					 <a href="add_content.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Добавить контент</a>
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Content</div>
+                                <div class="muted pull-left">Контент</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -23,7 +23,7 @@
 										        <tr>
 
 											     <th></th>
-												 <th>Title</th>
+												 <th>Название</th>
 												 <th></th>
                                    
 												</tr>

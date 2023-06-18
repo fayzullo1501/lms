@@ -14,7 +14,7 @@
 										<div class="span8">
 							<!-- block -->
 										<div class="navbar navbar-inner block-header">
-											<div class="muted pull-left">Calendar</div>
+											<div class="muted pull-left">Календарь</div>
 										</div>
 															<div id='calendar'></div>		
 										</div>

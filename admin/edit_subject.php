@@ -9,14 +9,14 @@
 		
 						<div class="span9" id="content">
 		                    <div class="row-fluid">
-									 <a href="add_subject.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Subject</a>
+									 <a href="add_subject.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Добавить курс</a>
 		                        <!-- block -->
 		                        <div id="" class="block">
 		                            <div class="navbar navbar-inner block-header">
-		                                <div class="muted pull-left">Edit Subject</div>
+		                                <div class="muted pull-left">Изменить</div>
 		                            </div>
 		                            <div class="block-content collapse in">
-									<a href="subjects.php"><i class="icon-arrow-left"></i> Back</a>
+									<a href="subjects.php"><i class="icon-arrow-left"></i> Назад</a>
 									
 									<?php
 									$query = mysqli_query($conn,"select * from subject where subject_id = '$get_id'")or die(mysqli_error());
@@ -25,25 +25,25 @@
 									
 									    <form class="form-horizontal" method="post">
 										<div class="control-group">
-											<label class="control-label" for="inputEmail">Subject Code</label>
+											<label class="control-label" for="inputEmail">Код курса</label>
 											<div class="controls">
 											<input type="text" value="<?php echo $row['subject_code']; ?>" name="subject_code" id="inputEmail" placeholder="Subject Code">
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Subject Title</label>
+											<label class="control-label" for="inputPassword">Название курса</label>
 											<div class="controls">
 											<input type="text" value="<?php echo $row['subject_title']; ?>" class="span8" name="title" id="inputPassword" placeholder="Subject Title" required>
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Number of Units</label>
+											<label class="control-label" for="inputPassword">кол-во занятий</label>
 											<div class="controls">
 											<input type="text" value="<?php echo $row['unit']; ?>" class="span1" name="unit" id="inputPassword" required>
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Description</label>
+											<label class="control-label" for="inputPassword">Описание</label>
 											<div class="controls">
 													<textarea name="description" id="ckeditor_full">
 													<?php echo $row['description']; ?>
@@ -56,7 +56,7 @@
 										<div class="control-group">
 										<div class="controls">
 										
-										<button name="update" type="submit" class="btn btn-info"><i class="icon-save icon-large"></i> Update</button>
+										<button name="update" type="submit" class="btn btn-info"><i class="icon-save icon-large"></i> Изменить</button>
 										</div>
 										</div>
 										</form>

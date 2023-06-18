@@ -11,8 +11,8 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Calendar</div>
-                                <div class="pull-right"><span class="badge badge-warning">View More</span>
+                                <div class="muted pull-left">Календарь</div>
+                                <div class="pull-right"><span class="badge badge-warning">Подробнее</span>
 
                                 </div>
                             </div>

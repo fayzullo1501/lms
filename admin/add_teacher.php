@@ -2,7 +2,7 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Add Teacher</div>
+                                <div class="muted pull-left">Добавить педагога</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -17,7 +17,7 @@
 									-->	
 										
 										  <div class="control-group">
-											<label>Department:</label>
+											<label>Филиал:</label>
                                           <div class="controls">
                                             <select name="department"  class="" required>
                                              	<option></option>
@@ -34,13 +34,13 @@
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="firstname" id="focusedInput" type="text" placeholder = "Firstname">
+                                            <input class="input focused" name="firstname" id="focusedInput" type="text" placeholder = "Имя">
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="lastname" id="focusedInput" type="text" placeholder = "Lastname">
+                                            <input class="input focused" name="lastname" id="focusedInput" type="text" placeholder = "Фамилия">
                                           </div>
                                         </div>
 										

@@ -2,14 +2,14 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Add School Year</div>
+                                <div class="muted pull-left">Добавить Учебный год</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
 								<form method="post">
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="school_year" id="focusedInput" type="text" placeholder = "School Year" required>
+                                            <input class="input focused" name="school_year" id="focusedInput" type="text" placeholder = "Учебный год" required>
                                           </div>
                                         </div>
 										

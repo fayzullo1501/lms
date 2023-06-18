@@ -13,7 +13,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Class List</div>
+                                <div class="muted pull-left">Список направлений</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -24,7 +24,7 @@
 									<thead>
 										  <tr>
 													<th></th>
-													<th>Course Year And Section</th>
+													<th>Год курса и раздел</th>
 													<th></th>
 										   </tr>
 										</thead>

@@ -5,13 +5,13 @@
 	<div class="pull-right">
 			    <ul class="nav nav-pills">
 				<li class="active">
-					<a href="students.php">All</a>
+					<a href="students.php">Все</a>
 				</li>
 				<li class="">
-					<a href="unreg_students.php">Unregistered</a>
+					<a href="unreg_students.php">Выпускники</a>
 				</li>
 				<li class="">
-				<a href="reg_students.php">Registered</a>
+				<a href="reg_students.php">Зарегестрированные</a>
 				</li>
 				</ul>
 	</div>
@@ -20,10 +20,10 @@
 		<tr>
 					<th></th>
 				
-					<th>Name</th>
-					<th>ID Number</th>
+					<th>Имя</th>
+					<th>ID </th>
 			
-					<th>Course Yr & Section</th>
+					<th>Учебный год</th>
 					<th></th>
 		</tr>
 		</thead>

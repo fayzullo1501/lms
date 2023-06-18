@@ -2,7 +2,7 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Add Student</div>
+                                <div class="muted pull-left">Добавить студента</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -26,19 +26,19 @@
 								
 										<div class="control-group">
                                           <div class="controls">
-                                            <input name="un" class="input focused" id="focusedInput" type="text" placeholder = "ID Number" required>
+                                            <input name="un" class="input focused" id="focusedInput" type="text" placeholder = "ID" required>
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input name="fn" class="input focused" id="focusedInput" type="text" placeholder = "Firstname" required>
+                                            <input name="fn" class="input focused" id="focusedInput" type="text" placeholder = "Имя" required>
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input  name="ln" class="input focused" id="focusedInput" type="text" placeholder = "Lastname" required>
+                                            <input  name="ln" class="input focused" id="focusedInput" type="text" placeholder = "Фамилия" required>
                                           </div>
                                         </div>
 								

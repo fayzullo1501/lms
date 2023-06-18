@@ -1,9 +1,9 @@
    <div class="row-fluid">
-    <a href="department.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Department</a>
+    <a href="department.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Добавить филиал</a>
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Edit Department</div>
+                                <div class="muted pull-left">Изменить</div>
                             </div>
 							<?php 
 							$query = mysqli_query($conn,"select * from department where department_id = '$get_id'")or die(mysqli_error());
@@ -14,13 +14,13 @@
 								<form method="post">
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" value="<?php echo $row['department_name']; ?>" id="focusedInput" name="d" type="text" placeholder = "Deparment">
+                                            <input class="input focused" value="<?php echo $row['department_name']; ?>" id="focusedInput" name="d" type="text" placeholder = "Филиал">
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" value="<?php echo $row['dean']; ?>" id="focusedInput" name="dn" type="text" placeholder = "Person Incharge">
+                                            <input class="input focused" value="<?php echo $row['dean']; ?>" id="focusedInput" name="dn" type="text" placeholder = "Директор">
                                           </div>
                                         </div>
 								

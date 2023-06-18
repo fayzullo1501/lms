@@ -14,7 +14,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Data Numbers</div>
+                                <div class="muted pull-left">Данные (номера)</div>
                             </div>
                             <div class="block-content collapse in">
 							        <div class="span12">
@@ -26,7 +26,7 @@
 								
                                 <div class="span3">
                                     <div class="chart" data-percent="<?php echo $count_reg_teacher; ?>"><?php echo $count_reg_teacher; ?></div>
-                                    <div class="chart-bottom-heading"><strong>Registered Teacher</strong>
+                                    <div class="chart-bottom-heading"><strong>Педагоги (Заявки)</strong>
 
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@
 								
                                 <div class="span3">
                                     <div class="chart" data-percent="<?php echo $count_teacher; ?>"><?php echo $count_teacher ?></div>
-                                    <div class="chart-bottom-heading"><strong>Teachers</strong>
+                                    <div class="chart-bottom-heading"><strong>Педагоги</strong>
 
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@
 								
                                 <div class="span3">
                                     <div class="chart" data-percent="<?php echo $count_student ?>"><?php echo $count_student ?></div>
-                                    <div class="chart-bottom-heading"><strong>Registered Students</strong>
+                                    <div class="chart-bottom-heading"><strong>Студенты (Заявки)</strong>
 
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
 								
                                 <div class="span3">
                                     <div class="chart" data-percent="<?php echo $count_student ?>"><?php echo $count_student ?></div>
-                                    <div class="chart-bottom-heading"><strong>Students</strong>
+                                    <div class="chart-bottom-heading"><strong>Студенты</strong>
 
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@
 								
                                 <div class="span3">
                                     <div class="chart" data-percent="<?php echo $count_class; ?>"><?php echo $count_class; ?></div>
-                                    <div class="chart-bottom-heading"><strong>Class</strong>
+                                    <div class="chart-bottom-heading"><strong>Направления</strong>
 
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@
 								
                                 <div class="span3">
                                     <div class="chart" data-percent="<?php echo $count_file; ?>"><?php echo $count_file; ?></div>
-                                    <div class="chart-bottom-heading"><strong>Downloadable File</strong>
+                                    <div class="chart-bottom-heading"><strong>Загружаемый файл</strong>
 
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@
 								
                                 <div class="span3">
                                     <div class="chart" data-percent="<?php echo $count_subject; ?>"><?php echo $count_subject; ?></div>
-                                    <div class="chart-bottom-heading"><strong>Subjects</strong>
+                                    <div class="chart-bottom-heading"><strong>Курсы</strong>
 
                                     </div>
                                 </div>

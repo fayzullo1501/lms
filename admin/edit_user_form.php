@@ -1,9 +1,9 @@
    <div class="row-fluid">
-   <a href="admin_user.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add user</a>
+   <a href="admin_user.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Добавить пользовтеля</a>
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Edit User</div>
+                                <div class="muted pull-left">Изменить</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -14,19 +14,19 @@
 								<form method="post">
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" value="<?php echo $row['firstname']; ?>" name="firstname" id="focusedInput" type="text" placeholder = "Firstname" required>
+                                            <input class="input focused" value="<?php echo $row['firstname']; ?>" name="firstname" id="focusedInput" type="text" placeholder = "Имя" required>
                                           </div>
                                         </div>
 										
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" value="<?php echo $row['lastname']; ?>"  name="lastname" id="focusedInput" type="text" placeholder = "Lastname" required>
+                                            <input class="input focused" value="<?php echo $row['lastname']; ?>"  name="lastname" id="focusedInput" type="text" placeholder = "Фамилия" required>
                                           </div>
                                         </div>
 										
 											<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" value="<?php echo $row['username']; ?>"  name="username" id="focusedInput" type="text" placeholder = "Username" required>
+                                            <input class="input focused" value="<?php echo $row['username']; ?>"  name="username" id="focusedInput" type="text" placeholder = "Имя пользовтеля" required>
                                           </div>
                                         </div>
 										

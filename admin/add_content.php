@@ -11,22 +11,22 @@
 							<!-- block -->
 		                        <div class="block">
 		                            <div class="navbar navbar-inner block-header">
-		                                <div class="muted pull-left">Add Content</div>
+		                                <div class="muted pull-left">Добавить контент</div>
 		                            </div>
 		                            <div class="block-content collapse in">
-									<a href="content.php"><i class="icon-arrow-left"></i> Back</a>
+									<a href="content.php"><i class="icon-arrow-left"></i> Назад</a>
 									
 									   
 									   <form class="form-horizontal" method="POST">
 										<div class="control-group">
-										<label class="control-label" for="inputEmail">Title</label>
+										<label class="control-label" for="inputEmail">Название</label>
 										<div class="controls">
-										<input type="text" name="title" id="inputEmail" placeholder="Title">
+										<input type="text" name="title" id="inputEmail" placeholder="Название">
 										</div>
 										</div>
 										
 												<div class="control-group">
-										<label class="control-label" for="inputPassword">Content</label>
+										<label class="control-label" for="inputPassword">Контент</label>
 										<div class="controls">
 												<textarea name="content" id="ckeditor_full">
 										
@@ -39,7 +39,7 @@
 										<div class="control-group">
 										<div class="controls">
 										
-										<button name="save" type="submit" class="btn btn-info"><i class="icon-save icon-large"></i> Save</button>
+										<button name="save" type="submit" class="btn btn-info"><i class="icon-save icon-large"></i> Сохранить</button>
 										</div>
 										</div>
 										</form>

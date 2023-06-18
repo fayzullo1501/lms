@@ -12,42 +12,42 @@
 		                        <!-- block -->
 		                        <div class="block">
 		                            <div class="navbar navbar-inner block-header">
-		                                <div class="muted pull-left">Add Subject</div>
+		                                <div class="muted pull-left">Добавить курс</div>
 		                            </div>
 		                            <div class="block-content collapse in">
-									<a href="subjects.php"><i class="icon-arrow-left"></i> Back</a>
+									<a href="subjects.php"><i class="icon-arrow-left"></i> Назад</a>
 									    <form class="form-horizontal" method="post">
 										<div class="control-group">
-											<label class="control-label" for="inputEmail">Subject Code</label>
+											<label class="control-label" for="inputEmail">Код курса</label>
 											<div class="controls">
-											<input type="text" name="subject_code" id="inputEmail" placeholder="Subject Code">
+											<input type="text" name="subject_code" id="inputEmail" placeholder="Код курса">
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Subject Title</label>
+											<label class="control-label" for="inputPassword">Название курса</label>
 											<div class="controls">
-											<input type="text" class="span8" name="title" id="inputPassword" placeholder="Subject Title" required>
+											<input type="text" class="span8" name="title" id="inputPassword" placeholder="Название курса" required>
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Number of Units</label>
+											<label class="control-label" for="inputPassword">Кол-во занятий</label>
 											<div class="controls">
 											<input type="text" class="span1" name="unit" id="inputPassword" required>
 											</div>
 										</div>
 											<div class="control-group">
-											<label class="control-label" for="inputPassword">Semester</label>
+											<label class="control-label" for="inputPassword">Часть</label>
 											<div class="controls">
 												<select name="semester">
 													<option></option>
-													<option>1st</option>
-													<option>2nd</option>
+													<option>1</option>
+													<option>2</option>
 												</select>
 											</div>
 										</div>
 								
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Description</label>
+											<label class="control-label" for="inputPassword">Описание</label>
 											<div class="controls">
 													<textarea name="description" id="ckeditor_full"></textarea>
 											</div>
@@ -58,7 +58,7 @@
 										<div class="control-group">
 										<div class="controls">
 										
-										<button name="save" type="submit" class="btn btn-info"><i class="icon-save"></i> Save</button>
+										<button name="save" type="submit" class="btn btn-info"><i class="icon-save"></i> Сохранить</button>
 										</div>
 										</div>
 										</form>

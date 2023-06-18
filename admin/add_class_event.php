@@ -1,9 +1,9 @@
  <form id="signin_student" class="form-signin" method="post">
-	<h4 class="form-signin-heading"><i class="icon-plus-sign"></i> Add Event</h4>
-	    <input type="text" class="input-block-level datepicker" name="date_start" id="date01" placeholder="Date Start" required/>
-	    <input type="text" class="input-block-level datepicker" name="date_end" id="date01" placeholder="Date End" required/>
-		<input type="text" class="input-block-level" id="username" name="title" placeholder="Title" required/>
-	<button id="signin" name="add" class="btn btn-info" type="submit"><i class="icon-save"></i> Save</button>
+	<h4 class="form-signin-heading"><i class="icon-plus-sign"></i> Добавить событие</h4>
+	    <input type="text" class="input-block-level datepicker" name="date_start" id="date01" placeholder="Дата начала" required/>
+	    <input type="text" class="input-block-level datepicker" name="date_end" id="date01" placeholder="Дата завершения" required/>
+		<input type="text" class="input-block-level" id="username" name="title" placeholder="Название" required/>
+	<button id="signin" name="add" class="btn btn-info" type="submit"><i class="icon-save"></i> Сохранить</button>
 </form>
 <?php
 if (isset($_POST['add'])){
@@ -25,8 +25,8 @@ if (isset($_POST['add'])){
 		
 										<thead>
 										        <tr>
-												<th>Event</th>
-												<th>Date</th>
+												<th>Собтие</th>
+												<th>Дата</th>
 												<th></th>
 												
 												</tr>

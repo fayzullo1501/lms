@@ -13,7 +13,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Admin Users List</div>
+                                <div class="muted pull-left">Список администраторов</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -24,8 +24,8 @@
 										<thead>
 										  <tr>
 												<th></th>
-												<th>Name</th>
-												<th>Username</th>
+												<th>Имя</th>
+												<th>Имя пользователя</th>
 											
 												<th></th>
 										   </tr>
